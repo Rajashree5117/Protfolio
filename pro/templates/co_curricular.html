@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        <!-- Video 1 (Google Drive Link) -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Video 1</h5>
+                    <iframe src="https://drive.google.com/file/d/1VeHo9gyJBbI7vioOgYyTEL7qYK615hkX/view?usp=drive_link" width="100%" height="300px"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video 2 (Google Drive Link) -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Video 2</h5>
+                    <iframe src="https://drive.google.com/file/d/1I9nhz7I2AO4Jn2HlTzAb3lwAE1U_yJSc/view?usp=drive_link" width="100%" height="300px"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- PPT -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Presentation (PPT)</h5>
+                    <iframe src="https://docs.google.com/presentation/d/1UfhCaOiSiulvqGedYGUWzWTGt-_jnrwy/edit?usp=drive_link&ouid=100018126142864796718&rtpof=true&sd=true" width="100%" height="300px"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Docs File -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Document (DOC)</h5>
+                    <iframe src="https://docs.google.com/document/d/1CZY56o61qrCFKle_FV-b3JGZN41Qoas7/edit?usp=drive_link&ouid=100018126142864796718&rtpof=true&sd=true" width="100%" height="300px"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- PDF File -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">PDF File</h5>
+                    <iframe src="https://drive.google.com/file/d/1nim6qjkTZkiI8u8BRWP0bNGQAtKfLvc0/view?usp=drive_link" width="100%" height="300px"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

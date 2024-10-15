@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <div class="container mt-5">
+        <h2>My Projects</h2>
+        <div class="row">
+            <!-- Diet Assistant Project -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="{% static 'pro/img/logo.png' %}" class="card-img-top" alt="Diet Assistant Project">
+                    <div class="card-body">
+                        <h5 class="card-title">Diet Assistant Project</h5>
+                        <ul>
+                            <li>A web application to assist users with personalized diet plans.</li>
+                            <li>Integrated with a user-friendly interface for tracking meals and nutrition.</li>
+                            <li>Supports real-time diet suggestions based on user preferences and goals.</li>
+                        </ul>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video class="embed-responsive-item" controls>
+                                <source src="{{ MEDIA_URL }}videos/dpvideo.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Personal Finance Analysis using Power BI -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="{% static 'pro/img/pb.jpg' %}" class="card-img-top" alt="Personal Finance Analysis">
+                    <div class="card-body">
+                        <h5 class="card-title">Personal Finance Analysis using Power BI</h5>
+                        <ul>
+                            <li>A dashboard for visualizing and analyzing personal finances.</li>
+                            <li>Interactive graphs and charts for tracking income, expenses, and savings.</li>
+                            <li>Provides insights into financial health through monthly reports.</li>
+                        </ul>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video class="embed-responsive-item" controls>
+                                <source src="{{ MEDIA_URL }}videos/finance_analysis_video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ninja Girl Game using BuildBox -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="{% static 'pro/img/nn.jpg' %}" class="card-img-top" alt="Ninja Girl Game">
+                    <div class="card-body">
+                        <h5 class="card-title">Ninja Girl Game using BuildBox</h5>
+                        <ul>
+                            <li>An action-packed mobile game developed using BuildBox.</li>
+                            <li>Features smooth gameplay, challenges, and a unique scoring system.</li>
+                            <li>Custom animations and sound effects to enhance the user experience.</li>
+                        </ul>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video class="embed-responsive-item" controls>
+                                <source src="{{ MEDIA_URL }}videos/game.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

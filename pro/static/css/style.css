@@ -1,0 +1,24 @@
+.circular-frame {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.animated-name {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+body {
+    background-image: url('{% static "pro/img/bi.jpeg" %}');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* Add more styling for cards, navbar, and sections */

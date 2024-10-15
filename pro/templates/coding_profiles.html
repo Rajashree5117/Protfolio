@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Coding Profile Cards -->
+            <div class="col-md-3 mb-4" *for each card*>
+                <div class="card h-100">
+                    <img src="{% static 'pro/img/l.jpg' %}" class="card-img-top img-fluid" alt="Leetcode Logo">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">LeetCode</h5>
+                        <p class="card-text">I solve problems on LeetCode to sharpen my problem-solving skills.</p>
+                        <div class="mt-auto">
+                            <a href="https://leetcode.com/u/RajasriM-117/" class="btn btn-primary" target="_blank">Visit Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- You can repeat the above structure for each of the 8 profiles -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="{% static 'pro/img/tuf.jpg' %}" class="card-img-top img-fluid" alt="tuf Logo">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">TakeUForward</h5>
+                        <p class="card-text">My DSA Mentor RajVikramaditya(Striver)</p>
+                        <div class="mt-auto">
+                            <a href="https://takeuforward.org/profile/magisetty.rajasri@gmail.com/edit" class="btn btn-primary" target="_blank">Visit Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- code with harry -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="{% static 'pro/img/cwh.jpg' %}" class="card-img-top img-fluid" alt="tuf Logo">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">CodeWithHarry</h5>
+                        <p class="card-text">My Coding Mentor Harris Ali Khan</p>
+                        <div class="mt-auto">
+                            <a href="https://www.codewithharry.com/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hZ2lzZXR0eS5yYWphc3JpQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoibWFnaXNldHR5LnJhamFzcmkiLCJpYXQiOjE3Mjg0NDAzNTgsImV4cCI6MTcyOTMwNDM1OH0.EfIGJJh46G_hsO0hY3jPSoOIt1D9nxR46mGEW1o1f6k&message=You%20are%20successfully%20logged%20in&email=magisetty.rajasri@gmail.com&username=magisetty.rajasri" class="btn btn-primary" target="_blank">Visit Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- neetcode -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="{% static 'pro/img/nc.jpg' %}" class="card-img-top img-fluid" alt="tuf Logo">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Neetcode</h5>
+                        <p class="card-text">Contains topic wise problems</p>
+                        <div class="mt-auto">
+                            <a href="https://neetcode.io/practice" class="btn btn-primary" target="_blank">Visit Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- python tutor -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="{% static 'pro/img/py.png' %}" class="card-img-top img-fluid" alt="tuf Logo">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Visualiser</h5>
+                        <p class="card-text">Helped me in visualising codes</p>
+                        <div class="mt-auto">
+                            <a href="https://pythontutor.com/render.html#mode=edit" class="btn btn-primary" target="_blank">Visit Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hackerrank -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="{% static 'pro/img/hh.jpg' %}" class="card-img-top img-fluid" alt="tuf Logo">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Hackerrank</h5>
+                        <p class="card-text">Contains various problems</p>
+                        <div class="mt-auto">
+                            <a href="https://www.hackerrank.com/profile/magisetty_rajas1" class="btn btn-primary" target="_blank">Visit Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- linkedin -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="{% static 'pro/img/ll.jpg' %}" class="card-img-top img-fluid" alt="tuf Logo">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Linkedin</h5>
+                        <p class="card-text">Helped me in networking</p>
+                        <div class="mt-auto">
+                            <a href="https://www.linkedin.com/in/rajasrim5/" class="btn btn-primary" target="_blank">Visit Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="{% static 'pro/img/g.png' %}" class="card-img-top img-fluid" alt="tuf Logo">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">GitHub</h5>
+                        <p class="card-text">Helped me in deploying</p>
+                        <div class="mt-auto">
+                            <a href="https://github.com/Rajashree5117" class="btn btn-primary" target="_blank">Visit Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+{% endblock %}

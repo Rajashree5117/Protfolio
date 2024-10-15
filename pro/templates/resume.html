@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <div class="container-fluid p-0">
+        <div class="row">
+            <div class="col-12">
+                <!-- To display PDF using an embed tag -->
+                <embed src="{% static 'pro/pdf/Resume.pdf' %}" width="100%" height="600px" />
+
+                <!-- Alternatively, provide a download link -->
+                <a href="{% static 'pro/pdf/Resume.pdf' %}" class="btn btn-primary" target="_blank">Download Resume (PDF)</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
